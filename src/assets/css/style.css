@@ -97,3 +97,39 @@
 .btn-cont > .btnSec > .form-group .btnOpt label.btn > span {
     font-size: 18px;
 }
+
+
+
+
+.btnOpt label{
+    margin-right: 10px;
+    border-radius: 35px!important;
+    background: #EFEFEF;
+    border: none;
+    color: black;
+    padding: 15px 50px!important;
+}
+
+.btnOpt label:before{
+    content: "\f164";
+    font-family: "Font Awesome 5 Free";
+    margin-right: 10px;
+}
+.btnOpt label:hover, .btnOpt label:active{
+    background: #ebeaea;
+    color: black;
+}
+
+label.btn.btn-outline-primary.btn-lg.active{
+    background: #cac9c9 !important;
+    color: black;
+    border: none !important;
+}
+
+.focus{
+     box-shadow: none !important;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active{
+    background: #cac9c9 !important;
+}

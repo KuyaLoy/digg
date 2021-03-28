@@ -123,8 +123,8 @@
                         <p class="btnSec"><BtnOpts /></p>
                     </div>
                 </div>
-                    <button class="bttn" @click.prevent="backStep">back</button>
-                    <button class="bttn next" @click.prevent="nextStep">next</button>
+                <button class="bttn" @click.prevent="backStep">back</button>
+                <button class="bttn next" @click.prevent="nextStep">next</button>
             </section>
             <section v-if="step == 3">
                 <div class="qa1">

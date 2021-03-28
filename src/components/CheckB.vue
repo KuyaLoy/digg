@@ -17,7 +17,7 @@
   }
 </script>
 
-<style>
+<style scope>
 .cb_style label{
     margin-right: 10px;
     border-radius: 35px!important;
