@@ -16,13 +16,14 @@
     background: transparent linear-gradient(90deg, #4734E1 0%, #8E27EA 100%) 0% 0% no-repeat padding-box;
 }
 .main-wrapper > form  > section button.bttn{
-    padding: 25px 70px;
+    padding: 20px 60px;
     text-transform: capitalize;
     background-color: white;
     border: #707070 solid 1px;
     outline: none;
     border-radius: 45px;
     color: #141212;
+    font-size: 22px;
 }
 .main-wrapper > form  > section button.bttn.next {
     background: transparent linear-gradient(90deg, #4734E1 0%, #8E27EA 100%) 0% 0% no-repeat padding-box;
@@ -66,4 +67,33 @@
 
 .main-wrapper section.form-1 .form-cont  .custom-control.custom-radio {
     margin-left: 20px;
+}
+.form-2-wrapper {
+    margin-top: 100px;
+}
+.form-2-wrapper > .btn-cont:not(:last-child) {
+    margin-bottom: 30px;
+}
+.form-2-wrapper > .btn-cont:last-child {
+    margin-bottom: 50px;
+}
+.btn-cont > .text-title {
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+.btn-cont > .btnSec {
+    margin: 0;
+}
+.btn-cont > .btnSec > .form-group {
+    margin-bottom: 0;
+}
+.btn-cont > .btnSec > .form-group .btnOpt {
+    all: unset;
+}
+.btn-cont > .btnSec > .form-group .btnOpt label.btn {
+    padding: 10px 45px !important;
+    margin-top: 10px;
+}
+.btn-cont > .btnSec > .form-group .btnOpt label.btn > span {
+    font-size: 18px;
 }

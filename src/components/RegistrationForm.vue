@@ -108,20 +108,23 @@
                     </b-row>
                 </b-container>
             </section>
-            <section v-if="step == 2">
-                <div class="qa1">
-                    <p class="try">Have you ever visited Dubai?</p>
-                    <p class="btnSec"><BtnOpt /></p>
-
-                    <p class="try">Do you have any friends or family in Dubai?</p>
-                    <p class="btnSec"><BtnOpt /></p>
-
-                    <p class="try">How long do you want to stay in Dubai?</p>
-                    <p class="btnSec"><BtnOpts /></p>
+            <section v-if="step == 2" class="form-2">
+                <div class="form-2-wrapper">
+                    <div class="btn-cont">
+                        <p class="text-title">Have you ever visited Dubai?</p>
+                        <p class="btnSec"><BtnOpt /></p>
+                    </div>
+                    <div class="btn-cont">
+                        <p class="text-title">Do you have any friends or family in Dubai?</p>
+                        <p class="btnSec"><BtnOpt /></p>
+                    </div>
+                    <div class="btn-cont">
+                        <p class="text-title">How long do you want to stay in Dubai?</p>
+                        <p class="btnSec"><BtnOpts /></p>
+                    </div>
                 </div>
-
-                <button class="bttn" @click.prevent="backStep">back</button>
-                <button class="bttn next" @click.prevent="nextStep">next</button>
+                    <button class="bttn" @click.prevent="backStep">back</button>
+                    <button class="bttn next" @click.prevent="nextStep">next</button>
             </section>
             <section v-if="step == 3">
                 <div class="qa1">

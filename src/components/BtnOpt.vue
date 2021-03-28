@@ -1,11 +1,10 @@
 <template>
-<b-form-group label="Button style radios" v-slot="{ ariaDescribedby }">
+<b-form-group v-slot="{ ariaDescribedby }">
       <b-form-radio-group class="btnOpt"
         id="btn-radios-2"
         v-model="selected"
         :options="options"
         :aria-describedby="ariaDescribedby"
-        button-variant="outline-primary"
         size="lg"
         name="hi"
         buttons
