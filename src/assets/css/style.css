@@ -1,0 +1,69 @@
+.main-wrapper {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.main-wrapper > form {
+    padding: 80px;
+    height: -webkit-fill-available;
+}
+.main-wrapper > form > .progress-bar-cont  .logo {
+    width: 125px;
+    height: 80px;
+}
+.main-wrapper > form > .progress-bar-cont  .progress > .progress-bar {
+    background: transparent linear-gradient(90deg, #4734E1 0%, #8E27EA 100%) 0% 0% no-repeat padding-box;
+}
+.main-wrapper > form  > section button.bttn{
+    padding: 25px 70px;
+    text-transform: capitalize;
+    background-color: white;
+    border: #707070 solid 1px;
+    outline: none;
+    border-radius: 45px;
+    color: #141212;
+}
+.main-wrapper > form  > section button.bttn.next {
+    background: transparent linear-gradient(90deg, #4734E1 0%, #8E27EA 100%) 0% 0% no-repeat padding-box;
+    border: none;
+    margin-left: 35px;
+    color: white;
+}
+
+.main-wrapper section.form-1 .form-cont {
+    margin-top: 60px;
+}
+.main-wrapper section.form-1 .form-cont  h1.home-main-text {
+    font-size: 46px;
+    margin-bottom: 55px;
+}
+
+.main-wrapper section.form-1 .form-cont  .form-control,
+.main-wrapper section.form-1 .form-cont .custom-select  {
+    background: #EFEFEF;
+}
+.main-wrapper section.form-1 .form-cont .form-group {
+    margin-bottom: 0;
+}
+.main-wrapper section.form-1 .form-cont .form-group.radio-grp > div {
+    display: flex;
+    align-items: center;
+    margin-top: 7.5px;
+}
+
+.main-wrapper section.form-1 .form-cont input[type="text"],
+.main-wrapper section.form-1 .form-cont .custom-select,
+.main-wrapper section.form-1 .form-cont .b-form-datepicker.form-control {
+    height: 70px;
+    align-items: center;
+}
+.main-wrapper section.form-1 .form-cont .gender-cont {
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.main-wrapper section.form-1 .form-cont  .custom-control.custom-radio {
+    margin-left: 20px;
+}
